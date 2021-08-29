@@ -240,6 +240,7 @@
 
 .friend {
   margin: 2rem;
+  align-items: center;
 }
 
 .friend .user-photo-friend {
@@ -316,11 +317,13 @@
 
 .footer-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-about {
-  padding: 2rem 10rem;
-  width: 50%;
+  padding: 2rem;
+  width: 33.33%;
 }
 
 .about-title {
@@ -337,8 +340,14 @@
   font-weight: 100;
 }
 
-.footer-nav {
+.footer-nav,
+.sup-container {
   border-left: var(--border-light);
+  width: 33.33%;
+}
+
+.footer-nav {
+    text-align: center;
 }
 
 .footer-list {
@@ -355,6 +364,36 @@
   cursor: pointer;
   color: var(--secondary-color);
   font-weight: 700;
+}
+
+.sup-container,
+.sup-title {
+  padding-left: 4rem;
+}
+
+.sup-container {
+  display: flex;
+}
+
+.sup__item {
+  border: 1px solid transparent;
+  border-radius: 5%;
+  height: 4rem;
+  margin: 0.4rem 0.3rem;
+  width: 4rem;
+  opacity: 0.8;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.sup__item:hover {
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .copyright {

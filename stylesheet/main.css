@@ -1,6 +1,5 @@
 @import url(reset.css);
 @import url(utilities.css);
-@import url(gallery.css);
 
 .navigation,
 .main,
@@ -66,7 +65,8 @@
   transition: 0.3s all;
   text-transform: uppercase;
 }
-.menu-link:hover {
+.menu-link:hover,
+.menu-link.active {
   border-bottom: 3px solid var(--secondary-color);
   color: var(--secondary-color);
   font-weight: 500;
@@ -190,7 +190,8 @@
 }
 
 .post:hover,
-.gallery-item:hover {
+.gallery-item:hover,
+.container-friends .friend:hover{
   background-color: rgb(252, 252, 252);
   -webkit-transform: scale(1.025);
   -ms-transform: scale(1.025);
@@ -215,6 +216,29 @@
 
 .user-info {
   padding: 2rem;
+}
+/*FRIENDS PAGE CONTENT */
+.container.container-friends {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.container-friends .friend {
+  display: flex;
+  width: 350px;
+  max-width: 350px;
+  transition: 0.3s all;
+}
+
+.friend .user-photo-friend {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.friend .user-friend {
+  max-width: 200px;
 }
 
 /*GALLERY PAGE CONTENT */

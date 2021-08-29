@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #f5c24c;
+  --primary-color-light: #ffce5d;
+  --primary-color-dark: #d4a22c;
+  --linear-color: linear-gradient(
+    135deg,
+    var(--primary-color-dark),
+    var(--primary-color),
+    var(--primary-color-light)
+  );
+
+  --secondary-color: #eb5081;
+  --secondary-color-light: #fc6695;
+  --secondary-color-dark: #ce3666;
+  --linear-sec-color: linear-gradient(
+    135deg,
+    var(--secondary-color-dark),
+    var(--secondary-color),
+    var(--secondary-color-light)
+  );
+
+  --border-light: 1px solid var(--primary-color-light);
+}

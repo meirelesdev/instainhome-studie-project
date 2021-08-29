@@ -29,11 +29,18 @@
 
 .insta-logo {
   width: 10rem;
+}
+
+.insta-logo,
+.about-logo,
+.about-photo {
   -webkit-transition: all ease-in-out 1s;
   -o-transition: all ease-in-out 1s;
   transition: all ease-in-out 1s;
 }
-.insta-logo:hover {
+
+.insta-logo:hover,
+.about-logo:hover {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
@@ -191,7 +198,7 @@
 
 .post:hover,
 .gallery-item:hover,
-.container-friends .friend:hover{
+.container-friends .friend:hover {
   background-color: rgb(252, 252, 252);
   -webkit-transform: scale(1.025);
   -ms-transform: scale(1.025);
@@ -231,6 +238,10 @@
   transition: 0.3s all;
 }
 
+.friend {
+  margin: 2rem;
+}
+
 .friend .user-photo-friend {
   width: 100px;
   height: 100px;
@@ -246,14 +257,14 @@
 .container-gallery {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 .gallery-item {
   width: 400px;
   margin-bottom: 20px;
   transition: 0.5s all;
 }
-.gallery-item img.image-gallery{
+.gallery-item img.image-gallery {
   width: 100%;
   max-width: 350px;
 }
@@ -276,8 +287,28 @@
   text-indent: 50px;
   font-size: 1.5rem;
   margin: 30px 10px 0px 10px;
-
 }
+
+.about-photo {
+  border: 3px solid #cecece;
+  border-radius: 3%;
+  margin: 3rem 0;
+  height: 24rem;
+  width: 30rem;
+  opacity: 0.8;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background: url(../assets/images/photo.jpg);
+  background-size: cover;
+}
+
+.about-photo:hover {
+  border: 3px solid var(--secondary-color);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
 /* FOOTER */
 .footer {
   background: var(--linear-color);

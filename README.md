@@ -4,8 +4,6 @@
 
 Projeto de estudos do curso DevInHouse do Senai em parceria com as empresas Teltec Solutions e BRy Tecnologia.
 
-<img src="https://www.senai-ce.org.br/assets/images/thumbs/senai.jpg" alt="Senai logo">
-<img src="https://pbs.twimg.com/profile_images/1058009377796472833/75HUvmqN.jpg" alt="Teltec Solutions logo">
-<img src="https://cryptoid.com.br/wp-content/uploads/2019/11/BRy-tecnologia-logoBRy.jpg" alt="BRy Tecnologia logo">
+<img src="https://www.senai-ce.org.br/assets/images/thumbs/senai.jpg" alt="Senai logo" >  <img src="https://pbs.twimg.com/profile_images/1058009377796472833/75HUvmqN.jpg" alt="Teltec Solutions logo" width="200">  <img src="https://cryptoid.com.br/wp-content/uploads/2019/11/BRy-tecnologia-logoBRy.jpg" alt="BRy Tecnologia logo" height="200" width="250">
 
 ---
